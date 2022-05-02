@@ -1,0 +1,113 @@
+body{
+    
+    background-color: rgb(42, 42, 38); /* For browsers that do not support gradients */
+
+    padding:0;
+    margin:0;
+    color: azure;
+    
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: fixed;
+    right: 3%;
+    top: 40%;
+}
+#menu a{
+    text-decoration: none;
+    color: azure;
+}
+#menu a:hover{
+    color: rgb(73, 153, 245);
+}
+#menu li{
+    font-size: 25px;
+    list-style: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#conteudo{
+    position: fixed;
+    top: 20%;
+    left: 2%;
+}
+#conteudo a{
+    text-decoration: none;
+    color: azure;
+}
+#conteudo h2{
+    font-size: 35px;
+    color: rgb(73, 153, 245);
+}
+#conteudo h3{
+    font-size: 20px;
+    color: rgb(73, 153, 245);
+}
+#bolas{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 2%;
+    right: 45%;
+}
+#bolas a{
+    text-decoration: none;
+}
+#bolas li{
+    font-size: 15px;
+    list-style: none;
+    
+}
+#atual{
+    color:rgb(73, 153, 245);
+}
+
+footer{
+    position: absolute;
+    right: 5%;
+    bottom: 1%;
+}
+@media (max-width: 900px){
+   
+    #conteudo{
+        position: fixed;
+        top: 10%;
+        left:5%;
+        margin: 5%;
+    }
+    #menu{
+        flex-direction: row;
+        top: 3%;
+        right: 7%;
+        width: 300px;
+    }
+    #menu li{
+        font-size: 15px;
+        list-style: none;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 20px;
+    }
+    #conteudo h2{
+        font-size: 20px;
+        color: rgb(73, 153, 245);
+    }
+    #bolas{
+        
+        bottom: 8%;
+        right: 40%;
+    }
+
+    footer{
+        position: absolute;
+        right: 35%;
+        bottom: 1%;
+    }
+}
